@@ -1,4 +1,5 @@
 # TW_destroy
+
 * destroy tweets by id of tweet
 ## install & requirements
 * ```git clone https://github.com/m7md1337/TW_destroy.git ```
@@ -14,6 +15,7 @@
 * for more follow the steps here https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive
 * after you get the zip file  the file of tweet inside data folder with name  tweet.js fullpath /data/tweet.js
 * run the script
+* with python 2 
 * enter file name 
 * enter username
 * enter password
