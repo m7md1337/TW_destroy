@@ -72,8 +72,9 @@ def main():
         ff = open(tweets, 'r')
         ff = json.loads(ff.read())
         for xx in ff:
-            if "0000 2016" in xx["tweet"]["created_at"] or "0000 2015" in xx["tweet"]["created_at"] or "0000 2014" in xx["tweet"]["created_at"] or "0000 2013" in xx["tweet"]["created_at"] or "0000 2012" in xx["tweet"]["created_at"]:
-                tweets_id.append(xx["tweet"]["id"])
+            tweets_id.append(xx["tweet"]["id"])
+            #if "0000 2016" in xx["tweet"]["created_at"] or "0000 2015" in xx["tweet"]["created_at"] or "0000 2014" in xx["tweet"]["created_at"] or "0000 2013" in xx["tweet"]["created_at"] or "0000 2012" in xx["tweet"]["created_at"]:
+                #tweets_id.append(xx["tweet"]["id"])
     except FileNotFoundError as dd:
         exit(dd)
 
