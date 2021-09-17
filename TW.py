@@ -65,7 +65,7 @@ def DestoyTweets(oauth_token_secret,oauth_token,ids):
 
 
 def main():
-    print("hi there")
+    print("hi there remember disable 2FA")
     tweets = raw_input("enter file : ")
     tweets_id = []
     try:
